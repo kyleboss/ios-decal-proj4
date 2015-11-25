@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D52EFF9B1BF938A9008E057E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52EFF9A1BF938A9008E057E /* AppDelegate.swift */; };
+		D52EFF9D1BF938A9008E057E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52EFF9C1BF938A9008E057E /* ViewController.swift */; };
+		D52EFFA01BF938A9008E057E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52EFF9E1BF938A9008E057E /* Main.storyboard */; };
+		D52EFFA21BF938A9008E057E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52EFFA11BF938A9008E057E /* Assets.xcassets */; };
+		D52EFFA51BF938A9008E057E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52EFFA31BF938A9008E057E /* LaunchScreen.storyboard */; };
+		D52EFFAA1BF938A9008E057E /* PluckIt WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D52EFFA91BF938A9008E057E /* PluckIt WatchKit App.app */; };
+		D52EFFB01BF938A9008E057E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52EFFAE1BF938A9008E057E /* Interface.storyboard */; };
+		D52EFFB21BF938A9008E057E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52EFFB11BF938A9008E057E /* Assets.xcassets */; };
+		D52EFFB91BF938A9008E057E /* PluckIt WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D52EFFB81BF938A9008E057E /* PluckIt WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D52EFFC01BF938A9008E057E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52EFFBF1BF938A9008E057E /* InterfaceController.swift */; };
+		D52EFFC21BF938A9008E057E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52EFFC11BF938A9008E057E /* ExtensionDelegate.swift */; };
+		D52EFFC41BF938A9008E057E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52EFFC31BF938A9008E057E /* NotificationController.swift */; };
+		D52EFFC61BF938A9008E057E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52EFFC51BF938A9008E057E /* Assets.xcassets */; };
+		D52EFFF51BF9565E008E057E /* libAudioKit iOS Static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D52EFFEC1BF95616008E057E /* libAudioKit iOS Static.a */; };
+		D52EFFF71BF9570B008E057E /* AudioKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52EFFF61BF9570A008E057E /* AudioKit.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D52EFFAB1BF938A9008E057E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D52EFF8F1BF938A9008E057E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D52EFFA81BF938A9008E057E;
+			remoteInfo = "PluckIt WatchKit App";
+		};
+		D52EFFBA1BF938A9008E057E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D52EFF8F1BF938A9008E057E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D52EFFB71BF938A9008E057E;
+			remoteInfo = "PluckIt WatchKit Extension";
+		};
+		D52EFFEB1BF95616008E057E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D52EFFE41BF95615008E057E /* AudioKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA8E93D81AD3C5240057E979;
+			remoteInfo = "AudioKit iOS Static";
+		};
+		D52EFFED1BF95616008E057E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D52EFFE41BF95615008E057E /* AudioKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EAA0F5941AE71C8F007CD7C9;
+			remoteInfo = "AudioKit iOS Dynamic";
+		};
+		D52EFFEF1BF95616008E057E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D52EFFE41BF95615008E057E /* AudioKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA8E96591AD3C6FC0057E979;
+			remoteInfo = "AudioKit OS X";
+		};
+		D52EFFF11BF95616008E057E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D52EFFE41BF95615008E057E /* AudioKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA93645D1BD865230005B849;
+			remoteInfo = "AudioKit tvOS";
+		};
+		D52EFFF31BF95646008E057E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D52EFFE41BF95615008E057E /* AudioKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EA8E93D71AD3C5240057E979;
+			remoteInfo = "AudioKit iOS Static";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D52EFFCD1BF938A9008E057E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D52EFFB91BF938A9008E057E /* PluckIt WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52EFFD11BF938A9008E057E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D52EFFAA1BF938A9008E057E /* PluckIt WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D52EFF971BF938A9008E057E /* PluckIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PluckIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52EFF9A1BF938A9008E057E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D52EFF9C1BF938A9008E057E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D52EFF9F1BF938A9008E057E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D52EFFA11BF938A9008E057E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D52EFFA41BF938A9008E057E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D52EFFA61BF938A9008E057E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D52EFFA91BF938A9008E057E /* PluckIt WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PluckIt WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52EFFAF1BF938A9008E057E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D52EFFB11BF938A9008E057E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D52EFFB31BF938A9008E057E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D52EFFB81BF938A9008E057E /* PluckIt WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PluckIt WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52EFFBE1BF938A9008E057E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		D52EFFBF1BF938A9008E057E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D52EFFC11BF938A9008E057E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		D52EFFC31BF938A9008E057E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		D52EFFC51BF938A9008E057E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D52EFFC71BF938A9008E057E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D52EFFE41BF95615008E057E /* AudioKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AudioKit.xcodeproj; path = ../AudioKit/AudioKit.xcodeproj; sourceTree = "<group>"; };
+		D52EFFF61BF9570A008E057E /* AudioKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AudioKit.swift; path = ../../AudioKit/AudioKit/Platforms/Swift/AudioKit.swift; sourceTree = "<group>"; };
+		D52EFFF81BF9577C008E057E /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		D5A01F691BF969CC00486C79 /* PluckIt WatchKit App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "PluckIt WatchKit App.entitlements"; sourceTree = "<group>"; };
+		D5A01F6A1BF96A2D00486C79 /* PluckIt WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "PluckIt WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		D5A01F6B1BF96A3C00486C79 /* PluckIt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PluckIt.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D52EFF941BF938A9008E057E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52EFFF51BF9565E008E057E /* libAudioKit iOS Static.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52EFFB51BF938A9008E057E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D52EFF8E1BF938A9008E057E = {
+			isa = PBXGroup;
+			children = (
+				D52EFFE41BF95615008E057E /* AudioKit.xcodeproj */,
+				D52EFF991BF938A9008E057E /* PluckIt */,
+				D52EFFAD1BF938A9008E057E /* PluckIt WatchKit App */,
+				D52EFFBC1BF938A9008E057E /* PluckIt WatchKit Extension */,
+				D52EFF981BF938A9008E057E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D52EFF981BF938A9008E057E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D52EFF971BF938A9008E057E /* PluckIt.app */,
+				D52EFFA91BF938A9008E057E /* PluckIt WatchKit App.app */,
+				D52EFFB81BF938A9008E057E /* PluckIt WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D52EFF991BF938A9008E057E /* PluckIt */ = {
+			isa = PBXGroup;
+			children = (
+				D5A01F6B1BF96A3C00486C79 /* PluckIt.entitlements */,
+				D52EFFF61BF9570A008E057E /* AudioKit.swift */,
+				D52EFF9A1BF938A9008E057E /* AppDelegate.swift */,
+				D52EFF9C1BF938A9008E057E /* ViewController.swift */,
+				D52EFF9E1BF938A9008E057E /* Main.storyboard */,
+				D52EFFA11BF938A9008E057E /* Assets.xcassets */,
+				D52EFFA31BF938A9008E057E /* LaunchScreen.storyboard */,
+				D52EFFA61BF938A9008E057E /* Info.plist */,
+				D52EFFF81BF9577C008E057E /* Bridging-Header.h */,
+			);
+			path = PluckIt;
+			sourceTree = "<group>";
+		};
+		D52EFFAD1BF938A9008E057E /* PluckIt WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D5A01F691BF969CC00486C79 /* PluckIt WatchKit App.entitlements */,
+				D52EFFAE1BF938A9008E057E /* Interface.storyboard */,
+				D52EFFB11BF938A9008E057E /* Assets.xcassets */,
+				D52EFFB31BF938A9008E057E /* Info.plist */,
+			);
+			path = "PluckIt WatchKit App";
+			sourceTree = "<group>";
+		};
+		D52EFFBC1BF938A9008E057E /* PluckIt WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D5A01F6A1BF96A2D00486C79 /* PluckIt WatchKit Extension.entitlements */,
+				D52EFFBF1BF938A9008E057E /* InterfaceController.swift */,
+				D52EFFC11BF938A9008E057E /* ExtensionDelegate.swift */,
+				D52EFFC31BF938A9008E057E /* NotificationController.swift */,
+				D52EFFC51BF938A9008E057E /* Assets.xcassets */,
+				D52EFFC71BF938A9008E057E /* Info.plist */,
+				D52EFFBD1BF938A9008E057E /* Supporting Files */,
+			);
+			path = "PluckIt WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D52EFFBD1BF938A9008E057E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D52EFFBE1BF938A9008E057E /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D52EFFE51BF95615008E057E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D52EFFEC1BF95616008E057E /* libAudioKit iOS Static.a */,
+				D52EFFEE1BF95616008E057E /* libAudioKit iOS Dynamic.a */,
+				D52EFFF01BF95616008E057E /* libAudioKit OS X.a */,
+				D52EFFF21BF95616008E057E /* libAudioKit tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D52EFF961BF938A9008E057E /* PluckIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D52EFFD21BF938A9008E057E /* Build configuration list for PBXNativeTarget "PluckIt" */;
+			buildPhases = (
+				D52EFF931BF938A9008E057E /* Sources */,
+				D52EFF941BF938A9008E057E /* Frameworks */,
+				D52EFF951BF938A9008E057E /* Resources */,
+				D52EFFD11BF938A9008E057E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D52EFFF41BF95646008E057E /* PBXTargetDependency */,
+				D52EFFAC1BF938A9008E057E /* PBXTargetDependency */,
+			);
+			name = PluckIt;
+			productName = PluckIt;
+			productReference = D52EFF971BF938A9008E057E /* PluckIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D52EFFA81BF938A9008E057E /* PluckIt WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D52EFFCE1BF938A9008E057E /* Build configuration list for PBXNativeTarget "PluckIt WatchKit App" */;
+			buildPhases = (
+				D52EFFA71BF938A9008E057E /* Resources */,
+				D52EFFCD1BF938A9008E057E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D52EFFBB1BF938A9008E057E /* PBXTargetDependency */,
+			);
+			name = "PluckIt WatchKit App";
+			productName = "PluckIt WatchKit App";
+			productReference = D52EFFA91BF938A9008E057E /* PluckIt WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D52EFFB71BF938A9008E057E /* PluckIt WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D52EFFCA1BF938A9008E057E /* Build configuration list for PBXNativeTarget "PluckIt WatchKit Extension" */;
+			buildPhases = (
+				D52EFFB41BF938A9008E057E /* Sources */,
+				D52EFFB51BF938A9008E057E /* Frameworks */,
+				D52EFFB61BF938A9008E057E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PluckIt WatchKit Extension";
+			productName = "PluckIt WatchKit Extension";
+			productReference = D52EFFB81BF938A9008E057E /* PluckIt WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D52EFF8F1BF938A9008E057E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Kyle Boss";
+				TargetAttributes = {
+					D52EFF961BF938A9008E057E = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 2TNJ4ZQ234;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					D52EFFA81BF938A9008E057E = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 2TNJ4ZQ234;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					D52EFFB71BF938A9008E057E = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 2TNJ4ZQ234;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D52EFF921BF938A9008E057E /* Build configuration list for PBXProject "PluckIt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D52EFF8E1BF938A9008E057E;
+			productRefGroup = D52EFF981BF938A9008E057E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D52EFFE51BF95615008E057E /* Products */;
+					ProjectRef = D52EFFE41BF95615008E057E /* AudioKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D52EFF961BF938A9008E057E /* PluckIt */,
+				D52EFFA81BF938A9008E057E /* PluckIt WatchKit App */,
+				D52EFFB71BF938A9008E057E /* PluckIt WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D52EFFEC1BF95616008E057E /* libAudioKit iOS Static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libAudioKit iOS Static.a";
+			remoteRef = D52EFFEB1BF95616008E057E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D52EFFEE1BF95616008E057E /* libAudioKit iOS Dynamic.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libAudioKit iOS Dynamic.a";
+			remoteRef = D52EFFED1BF95616008E057E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D52EFFF01BF95616008E057E /* libAudioKit OS X.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libAudioKit OS X.a";
+			remoteRef = D52EFFEF1BF95616008E057E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D52EFFF21BF95616008E057E /* libAudioKit tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libAudioKit tvOS.a";
+			remoteRef = D52EFFF11BF95616008E057E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D52EFF951BF938A9008E057E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52EFFA51BF938A9008E057E /* LaunchScreen.storyboard in Resources */,
+				D52EFFA21BF938A9008E057E /* Assets.xcassets in Resources */,
+				D52EFFA01BF938A9008E057E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52EFFA71BF938A9008E057E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52EFFB21BF938A9008E057E /* Assets.xcassets in Resources */,
+				D52EFFB01BF938A9008E057E /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52EFFB61BF938A9008E057E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52EFFC61BF938A9008E057E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D52EFF931BF938A9008E057E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52EFFF71BF9570B008E057E /* AudioKit.swift in Sources */,
+				D52EFF9D1BF938A9008E057E /* ViewController.swift in Sources */,
+				D52EFF9B1BF938A9008E057E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52EFFB41BF938A9008E057E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52EFFC41BF938A9008E057E /* NotificationController.swift in Sources */,
+				D52EFFC21BF938A9008E057E /* ExtensionDelegate.swift in Sources */,
+				D52EFFC01BF938A9008E057E /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D52EFFAC1BF938A9008E057E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D52EFFA81BF938A9008E057E /* PluckIt WatchKit App */;
+			targetProxy = D52EFFAB1BF938A9008E057E /* PBXContainerItemProxy */;
+		};
+		D52EFFBB1BF938A9008E057E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D52EFFB71BF938A9008E057E /* PluckIt WatchKit Extension */;
+			targetProxy = D52EFFBA1BF938A9008E057E /* PBXContainerItemProxy */;
+		};
+		D52EFFF41BF95646008E057E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AudioKit iOS Static";
+			targetProxy = D52EFFF31BF95646008E057E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D52EFF9E1BF938A9008E057E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D52EFF9F1BF938A9008E057E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D52EFFA31BF938A9008E057E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D52EFFA41BF938A9008E057E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D52EFFAE1BF938A9008E057E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D52EFFAF1BF938A9008E057E /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D52EFFC81BF938A9008E057E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D52EFFC91BF938A9008E057E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D52EFFCB1BF938A9008E057E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "PluckIt WatchKit Extension/PluckIt WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "PluckIt WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UCB.PluckIt.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		D52EFFCC1BF938A9008E057E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "PluckIt WatchKit Extension/PluckIt WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "PluckIt WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UCB.PluckIt.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		D52EFFCF1BF938A9008E057E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "PluckIt WatchKit App/PluckIt WatchKit App.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = PluckIt_WatchKit_Extension;
+				INFOPLIST_FILE = "PluckIt WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UCB.PluckIt.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		D52EFFD01BF938A9008E057E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "PluckIt WatchKit App/PluckIt WatchKit App.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = PluckIt_WatchKit_Extension;
+				INFOPLIST_FILE = "PluckIt WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UCB.PluckIt.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		D52EFFD31BF938A9008E057E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PluckIt/PluckIt.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PluckIt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UCB.PluckIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/PluckIt/Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "../AudioKit/AudioKit/**";
+			};
+			name = Debug;
+		};
+		D52EFFD41BF938A9008E057E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PluckIt/PluckIt.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PluckIt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UCB.PluckIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/PluckIt/Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "../AudioKit/AudioKit/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D52EFF921BF938A9008E057E /* Build configuration list for PBXProject "PluckIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52EFFC81BF938A9008E057E /* Debug */,
+				D52EFFC91BF938A9008E057E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D52EFFCA1BF938A9008E057E /* Build configuration list for PBXNativeTarget "PluckIt WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52EFFCB1BF938A9008E057E /* Debug */,
+				D52EFFCC1BF938A9008E057E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D52EFFCE1BF938A9008E057E /* Build configuration list for PBXNativeTarget "PluckIt WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52EFFCF1BF938A9008E057E /* Debug */,
+				D52EFFD01BF938A9008E057E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D52EFFD21BF938A9008E057E /* Build configuration list for PBXNativeTarget "PluckIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52EFFD31BF938A9008E057E /* Debug */,
+				D52EFFD41BF938A9008E057E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D52EFF8F1BF938A9008E057E /* Project object */;
+}

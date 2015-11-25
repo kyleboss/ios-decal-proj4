@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FFF90DB3F11D82819E5AF7C5924A8A1B0BC4013F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FFF90DB3F11D82819E5AF7C5924A8A1B0BC4013F" : 0,
+    "5D7AE6F26A6D7E393D8CA002FDE5D0D8ABCDAE62" : 0,
+    "711342287F37851AA2ABE6BEC799823D44760DB8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4DACECF6-2662-471E-969B-94CCFF22CD1F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FFF90DB3F11D82819E5AF7C5924A8A1B0BC4013F" : "ios-decal-proj4\/",
+    "5D7AE6F26A6D7E393D8CA002FDE5D0D8ABCDAE62" : "ios-decal-proj4\/AudioKit\/",
+    "711342287F37851AA2ABE6BEC799823D44760DB8" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PluckIt",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PluckIt\/PluckIt.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/audiokit\/AudioKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5D7AE6F26A6D7E393D8CA002FDE5D0D8ABCDAE62"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tictactoe98172\/master-drive.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "711342287F37851AA2ABE6BEC799823D44760DB8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kyleboss\/ios-decal-proj4.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FFF90DB3F11D82819E5AF7C5924A8A1B0BC4013F"
+    }
+  ]
+}
