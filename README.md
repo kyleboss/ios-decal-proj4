@@ -6,39 +6,26 @@
 
 ## Features
 
-* Tune each guitar string individually.
-* Keep beat with a metronome.
+* Tune each guitar string individually with a one-screen experience on the Apple Watch
 
 ## Control Flow
 
-* User brought to a splash screen that has two options: "Tune Me" or "Keep a beat". 
-* User selects "Tune Me" and is brought to a string where they can choose a string (with a skeuomorphic design of a guitar).
-* User selects a string and is brought to a screen that demands that they pluck the respective string. 
-* User plucks string and the Fast Fourier Transform is performed on the sound to detect frequency.
-* The user is told whether to loosen or tighten the string if it is not tuned.
+* User brought to string where they can choose a string (with a skeuomorphic design of a guitar).
+* User selects a string and is asked to pluck the string. 
+* User plucks string and the Fast Fourier Transform mixed with the MPM algorithm is performed on the sound through the phone to detect frequency.
+* The user is told whether to loosen or tighten the string if it is not tuned as well as the accuracy of the current tuning.
 * Repeat process until all strings are tuned.
-* User then goes back to splash screen and selects "Keep a beat"
-* User is brought to a screen with just a Start button and an input for BPM.
-* User changes BPM and selects START. The start button changes to stop and the phone will vibrate x beats per minute.
-* User presses stop to stop the metronome.
 
 ## Implementation
 
 ### Model
 
-* String.swift
-* Metronome.swift
+* PitchDetectory.swift
 
-### View
+### Storyboard
 
-* SplashUiView
-* StringSelectionUIView
-* TuningFeedbackUIView
-* MetronomeUIView
+* interface.storyboard
 
 ### Controller
 
-* SplashUiViewController
-* StringSelectionUIViewController
-* TuningFeedbackUIViewController
-* MetronomeUIViewController
+* HomeController
