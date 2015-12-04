@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D52EFF9B1BF938A9008E057E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52EFF9A1BF938A9008E057E /* AppDelegate.swift */; };
-		D52EFF9D1BF938A9008E057E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52EFF9C1BF938A9008E057E /* ViewController.swift */; };
+		3F605D5B1C083872009C255D /* PitchDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F605D5A1C083872009C255D /* PitchDetector.swift */; };
+		3F85D8E21C07AD000012F53D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85D8E11C07AD000012F53D /* ViewController.swift */; };
+		3FB4D0411C10EF6900F1432F /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB4D0401C10EF6900F1432F /* HomeController.swift */; };
+		3FD107C81C078AFB00D97A64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52EFF9A1BF938A9008E057E /* AppDelegate.swift */; };
+		3FD107D91C078B5D00D97A64 /* AudioKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD107D81C078B5D00D97A64 /* AudioKit.swift */; };
+		3FD107DD1C078C1800D97A64 /* libAudioKit iOS Static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD107D11C078B4A00D97A64 /* libAudioKit iOS Static.a */; };
 		D52EFFA01BF938A9008E057E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52EFF9E1BF938A9008E057E /* Main.storyboard */; };
 		D52EFFA21BF938A9008E057E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52EFFA11BF938A9008E057E /* Assets.xcassets */; };
 		D52EFFA51BF938A9008E057E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52EFFA31BF938A9008E057E /* LaunchScreen.storyboard */; };
@@ -20,11 +24,44 @@
 		D52EFFC21BF938A9008E057E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52EFFC11BF938A9008E057E /* ExtensionDelegate.swift */; };
 		D52EFFC41BF938A9008E057E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52EFFC31BF938A9008E057E /* NotificationController.swift */; };
 		D52EFFC61BF938A9008E057E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52EFFC51BF938A9008E057E /* Assets.xcassets */; };
-		D52EFFF51BF9565E008E057E /* libAudioKit iOS Static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D52EFFEC1BF95616008E057E /* libAudioKit iOS Static.a */; };
-		D52EFFF71BF9570B008E057E /* AudioKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52EFFF61BF9570A008E057E /* AudioKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3FD107D01C078B4A00D97A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FD107C91C078B4A00D97A64 /* AudioKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA8E93D81AD3C5240057E979;
+			remoteInfo = "AudioKit iOS Static";
+		};
+		3FD107D21C078B4A00D97A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FD107C91C078B4A00D97A64 /* AudioKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EAA0F5941AE71C8F007CD7C9;
+			remoteInfo = "AudioKit iOS Dynamic";
+		};
+		3FD107D41C078B4A00D97A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FD107C91C078B4A00D97A64 /* AudioKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA8E96591AD3C6FC0057E979;
+			remoteInfo = "AudioKit OS X";
+		};
+		3FD107D61C078B4A00D97A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FD107C91C078B4A00D97A64 /* AudioKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA93645D1BD865230005B849;
+			remoteInfo = "AudioKit tvOS";
+		};
+		3FD107DB1C078C0F00D97A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FD107C91C078B4A00D97A64 /* AudioKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EA8E93D71AD3C5240057E979;
+			remoteInfo = "AudioKit iOS Static";
+		};
 		D52EFFAB1BF938A9008E057E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D52EFF8F1BF938A9008E057E /* Project object */;
@@ -38,41 +75,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = D52EFFB71BF938A9008E057E;
 			remoteInfo = "PluckIt WatchKit Extension";
-		};
-		D52EFFEB1BF95616008E057E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D52EFFE41BF95615008E057E /* AudioKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EA8E93D81AD3C5240057E979;
-			remoteInfo = "AudioKit iOS Static";
-		};
-		D52EFFED1BF95616008E057E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D52EFFE41BF95615008E057E /* AudioKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EAA0F5941AE71C8F007CD7C9;
-			remoteInfo = "AudioKit iOS Dynamic";
-		};
-		D52EFFEF1BF95616008E057E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D52EFFE41BF95615008E057E /* AudioKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EA8E96591AD3C6FC0057E979;
-			remoteInfo = "AudioKit OS X";
-		};
-		D52EFFF11BF95616008E057E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D52EFFE41BF95615008E057E /* AudioKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EA93645D1BD865230005B849;
-			remoteInfo = "AudioKit tvOS";
-		};
-		D52EFFF31BF95646008E057E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D52EFFE41BF95615008E057E /* AudioKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = EA8E93D71AD3C5240057E979;
-			remoteInfo = "AudioKit iOS Static";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -102,9 +104,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3F605D5A1C083872009C255D /* PitchDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PitchDetector.swift; sourceTree = "<group>"; };
+		3F85D8E11C07AD000012F53D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FB4D0401C10EF6900F1432F /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		3FD107C91C078B4A00D97A64 /* AudioKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AudioKit.xcodeproj; path = ../AudioKit/AudioKit.xcodeproj; sourceTree = "<group>"; };
+		3FD107D81C078B5D00D97A64 /* AudioKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AudioKit.swift; path = ../../AudioKit/AudioKit/Platforms/Swift/AudioKit.swift; sourceTree = "<group>"; };
+		3FD107DA1C078BDF00D97A64 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		D52EFF971BF938A9008E057E /* PluckIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PluckIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52EFF9A1BF938A9008E057E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D52EFF9C1BF938A9008E057E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D52EFF9F1BF938A9008E057E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D52EFFA11BF938A9008E057E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D52EFFA41BF938A9008E057E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -120,9 +127,6 @@
 		D52EFFC31BF938A9008E057E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		D52EFFC51BF938A9008E057E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D52EFFC71BF938A9008E057E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D52EFFE41BF95615008E057E /* AudioKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AudioKit.xcodeproj; path = ../AudioKit/AudioKit.xcodeproj; sourceTree = "<group>"; };
-		D52EFFF61BF9570A008E057E /* AudioKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AudioKit.swift; path = ../../AudioKit/AudioKit/Platforms/Swift/AudioKit.swift; sourceTree = "<group>"; };
-		D52EFFF81BF9577C008E057E /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		D5A01F691BF969CC00486C79 /* PluckIt WatchKit App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "PluckIt WatchKit App.entitlements"; sourceTree = "<group>"; };
 		D5A01F6A1BF96A2D00486C79 /* PluckIt WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "PluckIt WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		D5A01F6B1BF96A3C00486C79 /* PluckIt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PluckIt.entitlements; sourceTree = "<group>"; };
@@ -133,7 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D52EFFF51BF9565E008E057E /* libAudioKit iOS Static.a in Frameworks */,
+				3FD107DD1C078C1800D97A64 /* libAudioKit iOS Static.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,10 +151,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FD107CA1C078B4A00D97A64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FD107D11C078B4A00D97A64 /* libAudioKit iOS Static.a */,
+				3FD107D31C078B4A00D97A64 /* libAudioKit iOS Dynamic.a */,
+				3FD107D51C078B4A00D97A64 /* libAudioKit OS X.a */,
+				3FD107D71C078B4A00D97A64 /* libAudioKit tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D52EFF8E1BF938A9008E057E = {
 			isa = PBXGroup;
 			children = (
-				D52EFFE41BF95615008E057E /* AudioKit.xcodeproj */,
+				3FD107C91C078B4A00D97A64 /* AudioKit.xcodeproj */,
 				D52EFF991BF938A9008E057E /* PluckIt */,
 				D52EFFAD1BF938A9008E057E /* PluckIt WatchKit App */,
 				D52EFFBC1BF938A9008E057E /* PluckIt WatchKit Extension */,
@@ -172,14 +187,15 @@
 			isa = PBXGroup;
 			children = (
 				D5A01F6B1BF96A3C00486C79 /* PluckIt.entitlements */,
-				D52EFFF61BF9570A008E057E /* AudioKit.swift */,
 				D52EFF9A1BF938A9008E057E /* AppDelegate.swift */,
-				D52EFF9C1BF938A9008E057E /* ViewController.swift */,
+				3FD107D81C078B5D00D97A64 /* AudioKit.swift */,
+				3F85D8E11C07AD000012F53D /* ViewController.swift */,
+				3FD107DA1C078BDF00D97A64 /* Bridging-Header.h */,
 				D52EFF9E1BF938A9008E057E /* Main.storyboard */,
+				3F605D5A1C083872009C255D /* PitchDetector.swift */,
 				D52EFFA11BF938A9008E057E /* Assets.xcassets */,
 				D52EFFA31BF938A9008E057E /* LaunchScreen.storyboard */,
 				D52EFFA61BF938A9008E057E /* Info.plist */,
-				D52EFFF81BF9577C008E057E /* Bridging-Header.h */,
 			);
 			path = PluckIt;
 			sourceTree = "<group>";
@@ -200,6 +216,7 @@
 			children = (
 				D5A01F6A1BF96A2D00486C79 /* PluckIt WatchKit Extension.entitlements */,
 				D52EFFBF1BF938A9008E057E /* InterfaceController.swift */,
+				3FB4D0401C10EF6900F1432F /* HomeController.swift */,
 				D52EFFC11BF938A9008E057E /* ExtensionDelegate.swift */,
 				D52EFFC31BF938A9008E057E /* NotificationController.swift */,
 				D52EFFC51BF938A9008E057E /* Assets.xcassets */,
@@ -217,17 +234,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D52EFFE51BF95615008E057E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D52EFFEC1BF95616008E057E /* libAudioKit iOS Static.a */,
-				D52EFFEE1BF95616008E057E /* libAudioKit iOS Dynamic.a */,
-				D52EFFF01BF95616008E057E /* libAudioKit OS X.a */,
-				D52EFFF21BF95616008E057E /* libAudioKit tvOS.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -243,7 +249,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D52EFFF41BF95646008E057E /* PBXTargetDependency */,
+				3FD107DC1C078C0F00D97A64 /* PBXTargetDependency */,
 				D52EFFAC1BF938A9008E057E /* PBXTargetDependency */,
 			);
 			name = PluckIt;
@@ -337,8 +343,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = D52EFFE51BF95615008E057E /* Products */;
-					ProjectRef = D52EFFE41BF95615008E057E /* AudioKit.xcodeproj */;
+					ProductGroup = 3FD107CA1C078B4A00D97A64 /* Products */;
+					ProjectRef = 3FD107C91C078B4A00D97A64 /* AudioKit.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -351,32 +357,32 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		D52EFFEC1BF95616008E057E /* libAudioKit iOS Static.a */ = {
+		3FD107D11C078B4A00D97A64 /* libAudioKit iOS Static.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libAudioKit iOS Static.a";
-			remoteRef = D52EFFEB1BF95616008E057E /* PBXContainerItemProxy */;
+			remoteRef = 3FD107D01C078B4A00D97A64 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D52EFFEE1BF95616008E057E /* libAudioKit iOS Dynamic.a */ = {
+		3FD107D31C078B4A00D97A64 /* libAudioKit iOS Dynamic.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libAudioKit iOS Dynamic.a";
-			remoteRef = D52EFFED1BF95616008E057E /* PBXContainerItemProxy */;
+			remoteRef = 3FD107D21C078B4A00D97A64 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D52EFFF01BF95616008E057E /* libAudioKit OS X.a */ = {
+		3FD107D51C078B4A00D97A64 /* libAudioKit OS X.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libAudioKit OS X.a";
-			remoteRef = D52EFFEF1BF95616008E057E /* PBXContainerItemProxy */;
+			remoteRef = 3FD107D41C078B4A00D97A64 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		D52EFFF21BF95616008E057E /* libAudioKit tvOS.a */ = {
+		3FD107D71C078B4A00D97A64 /* libAudioKit tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libAudioKit tvOS.a";
-			remoteRef = D52EFFF11BF95616008E057E /* PBXContainerItemProxy */;
+			remoteRef = 3FD107D61C078B4A00D97A64 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -416,9 +422,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D52EFFF71BF9570B008E057E /* AudioKit.swift in Sources */,
-				D52EFF9D1BF938A9008E057E /* ViewController.swift in Sources */,
-				D52EFF9B1BF938A9008E057E /* AppDelegate.swift in Sources */,
+				3F605D5B1C083872009C255D /* PitchDetector.swift in Sources */,
+				3FD107D91C078B5D00D97A64 /* AudioKit.swift in Sources */,
+				3F85D8E21C07AD000012F53D /* ViewController.swift in Sources */,
+				3FD107C81C078AFB00D97A64 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +433,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB4D0411C10EF6900F1432F /* HomeController.swift in Sources */,
 				D52EFFC41BF938A9008E057E /* NotificationController.swift in Sources */,
 				D52EFFC21BF938A9008E057E /* ExtensionDelegate.swift in Sources */,
 				D52EFFC01BF938A9008E057E /* InterfaceController.swift in Sources */,
@@ -435,6 +443,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3FD107DC1C078C0F00D97A64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AudioKit iOS Static";
+			targetProxy = 3FD107DB1C078C0F00D97A64 /* PBXContainerItemProxy */;
+		};
 		D52EFFAC1BF938A9008E057E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D52EFFA81BF938A9008E057E /* PluckIt WatchKit App */;
@@ -444,11 +457,6 @@
 			isa = PBXTargetDependency;
 			target = D52EFFB71BF938A9008E057E /* PluckIt WatchKit Extension */;
 			targetProxy = D52EFFBA1BF938A9008E057E /* PBXContainerItemProxy */;
-		};
-		D52EFFF41BF95646008E057E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "AudioKit iOS Static";
-			targetProxy = D52EFFF31BF95646008E057E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -566,17 +574,22 @@
 		D52EFFCB1BF938A9008E057E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "PluckIt WatchKit Extension/PluckIt WatchKit Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "PluckIt WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.UCB.PluckIt.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 4;
+				USER_HEADER_SEARCH_PATHS = "";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
@@ -584,17 +597,21 @@
 		D52EFFCC1BF938A9008E057E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "PluckIt WatchKit Extension/PluckIt WatchKit Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "PluckIt WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.UCB.PluckIt.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				TARGETED_DEVICE_FAMILY = 4;
+				USER_HEADER_SEARCH_PATHS = "";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
@@ -603,17 +620,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "PluckIt WatchKit App/PluckIt WatchKit App.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = PluckIt_WatchKit_Extension;
 				INFOPLIST_FILE = "PluckIt WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.UCB.PluckIt.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "PluckIt/PluckIt WatchKit App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -623,17 +644,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "PluckIt WatchKit App/PluckIt WatchKit App.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = PluckIt_WatchKit_Extension;
 				INFOPLIST_FILE = "PluckIt WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.UCB.PluckIt.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "PluckIt/PluckIt WatchKit App-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -652,7 +676,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.UCB.PluckIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/PluckIt/Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/kyleboss/Projects/ios/ios-decal-proj4/PluckIt/PluckIt/Bridging-Header.h";
 				USER_HEADER_SEARCH_PATHS = "../AudioKit/AudioKit/**";
 			};
 			name = Debug;
@@ -670,7 +694,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.UCB.PluckIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/PluckIt/Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/kyleboss/Projects/ios/ios-decal-proj4/PluckIt/PluckIt/Bridging-Header.h";
 				USER_HEADER_SEARCH_PATHS = "../AudioKit/AudioKit/**";
 			};
 			name = Release;

@@ -1,33 +1,96 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9058" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7wa-fp-WVI">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9048"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9019"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
-        <scene sceneID="aou-V4-d1y">
+        <!--Home Controller-->
+        <scene sceneID="H2r-lX-mLA">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="PluckIt_WatchKit_App" customModuleProvider="target">
+                <controller id="7wa-fp-WVI" customClass="HomeController" customModule="PluckIt_WatchKit_Extension">
                     <items>
-                        <button width="1" alignment="left" title="Play" enabled="NO" id="2X6-RL-FED">
-                            <connections>
-                                <action selector="playAudio" destination="AgC-eL-Hgc" id="QhP-7z-bt0"/>
-                            </connections>
-                        </button>
-                        <button width="1" alignment="left" title="Record" id="21N-M3-Pa8">
-                            <connections>
-                                <action selector="recordAudio" destination="AgC-eL-Hgc" id="1NA-Ce-DXi"/>
-                            </connections>
-                        </button>
+                        <label alignment="center" text="Tighten String" id="pYV-LD-PqD"/>
+                        <group width="136" height="185" alignment="left" verticalAlignment="bottom" backgroundImage="whiteguitar" contentMode="scaleAspectFill" layout="vertical" id="YxZ-mM-piO">
+                            <items>
+                                <group width="1" height="49" alignment="left" spacing="0.0" id="OOp-5Q-KfP">
+                                    <items>
+                                        <button width="40" height="30" alignment="right" verticalAlignment="bottom" title="G" id="S0o-aT-w1n">
+                                            <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="italicSystem" weight="bold" pointSize="15"/>
+                                            <connections>
+                                                <action selector="tuneG" destination="7wa-fp-WVI" id="RW3-nC-gf6"/>
+                                            </connections>
+                                        </button>
+                                        <button width="40" height="30" alignment="left" verticalAlignment="bottom" title="D" id="GpD-2S-97y">
+                                            <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="italicSystem" weight="bold" pointSize="15"/>
+                                            <connections>
+                                                <action selector="tuneD" destination="7wa-fp-WVI" id="P1s-cw-gZP"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                </group>
+                                <group width="1" height="34" alignment="left" spacing="0.0" id="3WF-bI-rGG">
+                                    <items>
+                                        <button width="40" height="30" alignment="left" verticalAlignment="bottom" title="A" id="axk-FX-s9j">
+                                            <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="italicSystem" weight="bold" pointSize="15"/>
+                                            <connections>
+                                                <action selector="tuneA" destination="7wa-fp-WVI" id="J5a-QV-mx6"/>
+                                            </connections>
+                                        </button>
+                                        <button width="40" height="30" alignment="right" verticalAlignment="bottom" title="B" id="A4L-VU-QsZ">
+                                            <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="italicSystem" weight="bold" pointSize="15"/>
+                                            <connections>
+                                                <action selector="tuneB" destination="7wa-fp-WVI" id="EHn-wJ-ZWF"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                </group>
+                                <group width="1" height="34" alignment="left" spacing="0.0" id="nSY-5q-Fhd">
+                                    <items>
+                                        <button width="40" height="30" alignment="left" verticalAlignment="bottom" title="Eb" id="qUU-dm-Mfb">
+                                            <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="italicSystem" weight="bold" pointSize="15"/>
+                                            <connections>
+                                                <action selector="tuneELeft" destination="7wa-fp-WVI" id="qz3-4X-Yeq"/>
+                                            </connections>
+                                        </button>
+                                        <button width="40" height="30" alignment="right" verticalAlignment="bottom" title="E" id="4dd-VB-SVA">
+                                            <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" type="italicSystem" weight="bold" pointSize="15"/>
+                                            <connections>
+                                                <action selector="tuneE" destination="7wa-fp-WVI" id="SdL-Iu-L3Q"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                </group>
+                            </items>
+                        </group>
                     </items>
                     <connections>
-                        <outlet property="playButton" destination="2X6-RL-FED" id="Lxi-2w-VSj"/>
-                        <outlet property="recordButton" destination="21N-M3-Pa8" id="Bds-ML-Ily"/>
+                        <outlet property="aNote" destination="axk-FX-s9j" id="bnj-5o-gEf"/>
+                        <outlet property="bNote" destination="A4L-VU-QsZ" id="PAu-bs-ijD"/>
+                        <outlet property="dNote" destination="GpD-2S-97y" id="vyV-SD-mGy"/>
+                        <outlet property="eNote" destination="4dd-VB-SVA" id="0e7-S4-a05"/>
+                        <outlet property="eNoteLeft" destination="qUU-dm-Mfb" id="qSQ-c3-dIK"/>
+                        <outlet property="gNote" destination="S0o-aT-w1n" id="Bio-uT-PFR"/>
+                        <outlet property="instLabel" destination="pYV-LD-PqD" id="yPb-PS-uCp"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="345"/>
+            <point key="canvasLocation" x="228" y="362.75"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">

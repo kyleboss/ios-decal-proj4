@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FFF90DB3F11D82819E5AF7C5924A8A1B0BC4013F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FFF90DB3F11D82819E5AF7C5924A8A1B0BC4013F" : 0,
+    "5D7AE6F26A6D7E393D8CA002FDE5D0D8ABCDAE62" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D6B2ED7A-678D-4EEE-B89D-977316A000F3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FFF90DB3F11D82819E5AF7C5924A8A1B0BC4013F" : "ios-decal-proj4\/",
+    "5D7AE6F26A6D7E393D8CA002FDE5D0D8ABCDAE62" : "ios-decal-proj4\/AudioKit\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PluckIt",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PluckIt\/PluckIt.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/audiokit\/AudioKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5D7AE6F26A6D7E393D8CA002FDE5D0D8ABCDAE62"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kyleboss\/ios-decal-proj4.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FFF90DB3F11D82819E5AF7C5924A8A1B0BC4013F"
+    }
+  ]
+}

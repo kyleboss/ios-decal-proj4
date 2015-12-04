@@ -2,7 +2,7 @@
 //  Bridging-Header.h
 //  PluckIt
 //
-//  Created by Kyle Boss on 11/26/15.
+//  Created by Kyle Boss on 11/15/15.
 //  Copyright © 2015 Kyle Boss. All rights reserved.
 //
 
@@ -10,5 +10,6 @@
 #define Bridging_Header_h
 
 #import "AKFoundation.h"
+
 
 #endif /* Bridging_Header_h */
