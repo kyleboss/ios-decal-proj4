@@ -9,6 +9,7 @@
 import UIKit
 import WatchConnectivity
 import Accelerate
+import AVFoundation
 
 class ViewController: UIViewController, WCSessionDelegate {
     
@@ -58,7 +59,6 @@ class ViewController: UIViewController, WCSessionDelegate {
                 do {
                     try audioFile.readIntoBuffer(buffer, frameCount:frameCount)
                 } catch {
-                    return
                 }
                 
 
@@ -80,8 +80,7 @@ class ViewController: UIViewController, WCSessionDelegate {
                 vDSP_fft_zrip(fftSetup, &output, 1, log2n, Int32(FFT_FORWARD))
                 
                 
-                // you can calculate magnitude squared here, with care 
-                // as the first result is wrong! read up on packed formats
+                // calculate magnitude squared here, with care
                 var fft = [Float](count:Int(bufferSizePOT / 2), repeatedValue:0.0)
                 let bufferOver2: vDSP_Length = vDSP_Length(bufferSizePOT / 2)
                 vDSP_zvmags(&output, 1, &fft, 1, bufferOver2)

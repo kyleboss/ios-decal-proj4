@@ -71,6 +71,9 @@ public class PitchDetector: NSObject {
         analyzer.stop()
     }
     
+    /**
+        Get percent accuracy of a note given the pitch.
+     */
     static func displayNoteOf(pitch: Float, noteName: String) -> Float {
         var percentCloseness:Float = 0.0;
         
@@ -89,15 +92,15 @@ public class PitchDetector: NSObject {
                 }
             }
         }
-        
         var bestFitNoteIndex:Int    = -1;
-        
         for (var i = 0; i < noteNames.count; i++) {
             if (noteNames[i] == noteName) {
-                bestFitNoteIndex    = i;
+                bestFitNoteIndex = i;
             }
         }
-        
+        if (octave.count == 0) {
+            return -1
+        }
         percentCloseness    = (pitch / octave[bestFitNoteIndex]) * 100;
         return percentCloseness;
     }

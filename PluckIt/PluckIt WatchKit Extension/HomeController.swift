@@ -123,9 +123,9 @@ class HomeController: WKInterfaceController, WCSessionDelegate {
                 if (accuracy > 90 && accuracy < 110) {
                     instText = "Perfect!"
                 } else if (accuracy < 100) {
-                    instText = "Tighten String"
+                    instText = "Tighten"
                 } else {
-                    instText = "Loosen String"
+                    instText = "Loosen"
                 }
                 instText = instText + " " + noteName + ": " + String(absAccuracy) + "%"
                 instLabel.setText(instText)

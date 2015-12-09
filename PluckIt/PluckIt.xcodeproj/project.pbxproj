@@ -20,7 +20,6 @@
 		D52EFFB01BF938A9008E057E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52EFFAE1BF938A9008E057E /* Interface.storyboard */; };
 		D52EFFB21BF938A9008E057E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52EFFB11BF938A9008E057E /* Assets.xcassets */; };
 		D52EFFB91BF938A9008E057E /* PluckIt WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D52EFFB81BF938A9008E057E /* PluckIt WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D52EFFC01BF938A9008E057E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52EFFBF1BF938A9008E057E /* InterfaceController.swift */; };
 		D52EFFC21BF938A9008E057E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52EFFC11BF938A9008E057E /* ExtensionDelegate.swift */; };
 		D52EFFC41BF938A9008E057E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52EFFC31BF938A9008E057E /* NotificationController.swift */; };
 		D52EFFC61BF938A9008E057E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52EFFC51BF938A9008E057E /* Assets.xcassets */; };
@@ -122,7 +121,6 @@
 		D52EFFB31BF938A9008E057E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D52EFFB81BF938A9008E057E /* PluckIt WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PluckIt WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52EFFBE1BF938A9008E057E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		D52EFFBF1BF938A9008E057E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		D52EFFC11BF938A9008E057E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		D52EFFC31BF938A9008E057E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		D52EFFC51BF938A9008E057E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -215,7 +213,6 @@
 			isa = PBXGroup;
 			children = (
 				D5A01F6A1BF96A2D00486C79 /* PluckIt WatchKit Extension.entitlements */,
-				D52EFFBF1BF938A9008E057E /* InterfaceController.swift */,
 				3FB4D0401C10EF6900F1432F /* HomeController.swift */,
 				D52EFFC11BF938A9008E057E /* ExtensionDelegate.swift */,
 				D52EFFC31BF938A9008E057E /* NotificationController.swift */,
@@ -436,7 +433,6 @@
 				3FB4D0411C10EF6900F1432F /* HomeController.swift in Sources */,
 				D52EFFC41BF938A9008E057E /* NotificationController.swift in Sources */,
 				D52EFFC21BF938A9008E057E /* ExtensionDelegate.swift in Sources */,
-				D52EFFC01BF938A9008E057E /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
